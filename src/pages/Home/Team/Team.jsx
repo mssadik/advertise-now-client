@@ -28,8 +28,8 @@ const Team = () => {
           Build strong relationships within your industry. Networking can lead
           to collaborations, partnerships, and opportunities for growth.
         </p>
-        <button className="bg-orange-500 btn mt-5 text-white border border-orange-500 hover:border hover:border-orange-500 hover:text-black">
-          View Our Portfolio
+        <button className="bg-orange-500 btn mt-5 text-white border border-orange-500 hover:border hover:border-orange-500 hover:text-black uppercase">
+          Advertise Now
         </button>
       </div>
     </div>

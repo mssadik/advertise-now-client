@@ -1,0 +1,74 @@
+[
+    {
+        "Id": 1,
+        "Name": "Product 1",
+        "Category": "Electronics",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-33-1280x1280.jpg",
+        "Description": "This is an amazing electronic product.",
+        "Price": 199.99,
+        "Button": {
+            "Label": "Buy Now",
+            "Action": "https://example.com/buy/product1"
+        }
+    },
+    {
+        "Id": 2,
+        "Name": "Product 2",
+        "Category": "Clothing",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-26-1280x1280.jpg",
+        "Description": "Stay stylish with this fantastic clothing item.",
+        "Price": 49.99,
+        "Button": {
+            "Label": "Add to Cart",
+            "Action": "https://example.com/cart/add/product2"
+        }
+    },
+    {
+        "Id": 3,
+        "Name": "Product 3",
+        "Category": "Home",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-portfolio-05-1280x1280.jpg",
+        "Description": "Upgrade your home with this high-quality product.",
+        "Price": 129.95,
+        "Button": {
+            "Label": "View Details",
+            "Action": "https://example.com/product3/details"
+        }
+    },
+    {
+        "Id": 3,
+        "Name": "Product 3",
+        "Category": "Home",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-portfolio-05-1280x1280.jpg",
+        "Description": "Upgrade your home with this high-quality product.",
+        "Price": 129.95,
+        "Button": {
+            "Label": "View Details",
+            "Action": "https://example.com/product3/details"
+        }
+    },
+    {
+        "Id": 2,
+        "Name": "Product 2",
+        "Category": "Clothing",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-26-1280x1280.jpg",
+        "Description": "Stay stylish with this fantastic clothing item.",
+        "Price": 49.99,
+        "Button": {
+            "Label": "Add to Cart",
+            "Action": "https://example.com/cart/add/product2"
+        }
+    },
+    {
+        "Id": 1,
+        "Name": "Product 1",
+        "Category": "Electronics",
+        "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-33-1280x1280.jpg",
+        "Description": "This is an amazing electronic product.",
+        "Price": 199.99,
+        "Button": {
+            "Label": "Buy Now",
+            "Action": "https://example.com/buy/product1"
+        }
+    }
+]
