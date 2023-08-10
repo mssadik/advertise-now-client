@@ -25,7 +25,7 @@ const Feedback = () => {
           {feedbacks.map((feedback) => (
             <SwiperSlide key={feedback.id}>
               <div className="text-center flex flex-col justify-center items-center mx-24 my-16 space-y-3">
-                <Rating style={{ maxWidth: 180 }} value={feedback.rating} readOnly />
+                <Rating className="mb-2 md:mb-4" style={{ maxWidth: 180 }} value={feedback.rating} readOnly />
                 <p>{feedback.feedback}</p>
                 <h3 className="text-3xl text-yellow-400">{feedback.clientName}</h3>
               </div>
