@@ -9,7 +9,7 @@ import Home from "../pages/Home/Home/Home";
       children: [
         {
             path: '/',
-            element: <Home></Home>
+            element: <Home></Home>,
         }
       ]
     },
