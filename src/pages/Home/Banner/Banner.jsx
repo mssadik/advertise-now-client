@@ -7,19 +7,19 @@ const Banner = () => {
       className="text-center"
     >
       <div className="">
-        <img src="https://i.postimg.cc/BQ2kFbWh/pexels-george-pak-7972541.jpg" />
+        <img src="https://i.postimg.cc/VLQnzRj1/pexels-mikael-blomkvist-6483579.jpg" />
       </div>
       <div className="">
-        <img src="https://i.postimg.cc/cJhdB6fM/pexels-andrea-piacquadio-3755760.jpg" />
+        <img src="https://i.postimg.cc/ZRWp5s7Y/pexels-mikael-blomkvist-6476584.jpg" />
       </div>
       <div >
-        <img src="https://i.postimg.cc/pXkyP20S/pexels-pixabay-159775.jpg" />
+        <img src="https://i.postimg.cc/HLBV50cJ/pexels-tatiana-syrikova-3975577.jpg" />
       </div>
       <div>
-        <img src="https://i.postimg.cc/fL00b639/pexels-stanley-morales-1454360.jpg" />
+        <img src="https://i.postimg.cc/QNmLg60x/pexels-rdne-stock-project-7310210.jpg" />
       </div>
       <div>
-        <img src="https://i.postimg.cc/1RnL9Mv1/pexels-rdne-stock-project-7683704.jpg" />
+        <img src="https://i.postimg.cc/KY8Jn2vm/pexels-startup-stock-photos-7375.jpggi" />
       </div>
     </Carousel>
     );
