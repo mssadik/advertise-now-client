@@ -1,6 +1,6 @@
 const AdvertiseCard = ({add}) => {
-    const{Name, Category, Description, Price, Image} = add
-    console.log(add);
+    const{Name, Description, Image} = add
+    // console.log(add);
 
     return (
         <div>

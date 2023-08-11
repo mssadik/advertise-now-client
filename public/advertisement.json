@@ -36,7 +36,7 @@
         }
     },
     {
-        "Id": 3,
+        "Id": 4,
         "Name": "Product 3",
         "Category": "Home",
         "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-portfolio-05-1280x1280.jpg",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "Id": 2,
+        "Id": 5,
         "Name": "Product 2",
         "Category": "Clothing",
         "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-26-1280x1280.jpg",
@@ -60,7 +60,7 @@
         }
     },
     {
-        "Id": 1,
+        "Id": 6,
         "Name": "Product 1",
         "Category": "Electronics",
         "Image": "https://avantage.bold-themes.com/hr/wp-content/uploads/sites/5/2019/04/img-blog-33-1280x1280.jpg",
