@@ -1,10 +1,7 @@
-/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-
-// eslint-disable-next-line react/prop-types
 const AdvertiseCard = ({ add }) => {
   const { name, description, image, ratings } = add;
-  
+
   return (
     <div>
       <div className="card bg-base-100 shadow-xl border border-r-0 border-b-0 border-l-0 border-t-orange-500">
@@ -28,5 +25,4 @@ const AdvertiseCard = ({ add }) => {
     </div>
   );
 };
-
 export default AdvertiseCard;
