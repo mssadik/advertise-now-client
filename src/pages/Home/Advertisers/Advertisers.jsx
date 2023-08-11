@@ -3,7 +3,7 @@ import './Advertisers.css';
 
 const Advertisers = () => {
     return (
-        <div className="my-8 py-20 bg-slate-300">
+        <div className="my-8 py-20 ">
             <div className="text-center p-5">
                 <h3 className="font-bold text-orange-300">FOR ADVERTISERS</h3>
                 <h1 className="font-extrabold text-4xl text-black">CHAMPIONING YOUR GOALS</h1>
