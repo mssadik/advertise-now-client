@@ -3,10 +3,10 @@ import './Advertisers.css';
 
 const Advertisers = () => {
     return (
-        <div className="my-8 py-20 ">
+        <div className="py-12 ">
             <div className="text-center p-5">
                 <h3 className="font-bold text-orange-300">FOR ADVERTISERS</h3>
-                <h1 className="font-extrabold text-4xl text-black">CHAMPIONING YOUR GOALS</h1>
+                <h1 className="font-extrabold text-4xl text-black pb-4">CHAMPIONING YOUR GOALS</h1>
             </div>
             <div className="flex gap-y-16 flex-col  md:flex-row items-center justify-center md:space-x-8 p-8">
                 {/* Card 1 */}
@@ -29,7 +29,7 @@ const Advertisers = () => {
                     <p className="mt-4 text-left font-serif  text-xs md:text-base text-white">Step into a world of advertising innovation that fosters growth. Our platform transforms your products into captivating stories, weaving connections with potential buyers. Ignite curiosity and turn it into a loyal customer base</p>
                 </div>
             </div>
-            <div className='text-center'>
+            <div className='text-center pt-2'>
                 <button className="bg-gradient-to-r from-orange-300 to-pink-500 hover:from-orange-500 hover:to-tomato-500 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 transform hover:scale-105">
                     Start your business
                 </button>

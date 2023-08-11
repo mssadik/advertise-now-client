@@ -25,7 +25,7 @@ const Feedback = () => {
           {feedback1 && (
             <div className="text-center bg-gradient-to-b from-black to-indigo-600 p-8 rounded-lg shadow-lg">
               <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4 border-2 border-orange-400"
                 src={feedback1.img}
                 alt=""
               />
@@ -44,7 +44,7 @@ const Feedback = () => {
           {feedback2 && (
             <div className="text-center bg-gradient-to-b from-black to-indigo-600 p-8 rounded-lg shadow-lg">
               <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-28 h-28 rounded-full mx-auto mb-4 border-2 border-orange-400"
                 src={feedback2.img}
                 alt=""
               />
