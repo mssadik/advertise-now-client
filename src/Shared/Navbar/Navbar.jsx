@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import logo from '../../assets/logo/logo.png'
 
 const Navbar = () => {
     const navItem = <>
@@ -7,7 +8,7 @@ const Navbar = () => {
             <li><Link className="uppercase font-bold" to='/'>Services</Link></li>
         </>
   return (
-    <div className="fixed z-10 bg-opacity-30 bg-black navbar text-white max-w-6xl">
+    <div className="fixed px-8 z-10 bg-opacity-30 bg-black navbar text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,7 +34,7 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <a className="btn btn-ghost text-3xl uppercase text-orange-400 font-bold">Advertising</a>
+        <img style={{height: '75px', width: '130px'}} src={logo} alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -41,7 +42,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link className="btn bg-orange-400 border-none text-white font-bold">Login</Link>
+        <Link className="btn bg-orange-500 border-none text-white font-bold">Login</Link>
       </div>
     </div>
   );
