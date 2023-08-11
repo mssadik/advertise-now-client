@@ -26,14 +26,13 @@ const Advertisers = () => {
                 {/* Card 3 */}
                 <div className="custom-card relative h-40  bg-gradient-to-r from-red-300 to-pink-500 hover:from-green-500 hover:to-yellow-500 ">
                     <img className="mx-auto h-16 rounded-full absolute -top-8 left-1/2 transform -translate-x-1/2" src="https://i.ibb.co/VJw0dWF/iw.jpg" alt="Card 1" />
-                    <p className="mt-4 text-white text-sm md:text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p className="mt-4 text-sm md:text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
             <div className='text-center'>
                 <button className="bg-gradient-to-r from-orange-300 to-pink-500 hover:from-orange-500 hover:to-tomato-500 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 transform hover:scale-105">
                     Start your business
                 </button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, fugit!</p>
             </div>
         </div>
     );
