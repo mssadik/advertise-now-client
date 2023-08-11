@@ -29,7 +29,7 @@ const Feedback = () => {
                 src={feedback1.img}
                 alt=""
               />
-              <h3 className="text-3xl text-white">{feedback1.clientName}</h3>
+              <h3 className="text-3xl text-white">{feedback1.commpanyName}</h3>
               <div className=" mt-2">
                 <Rating
                   className="text-yellow-400 mx-auto"
@@ -48,7 +48,7 @@ const Feedback = () => {
                 src={feedback2.img}
                 alt=""
               />
-              <h3 className="text-3xl text-white">{feedback2.clientName}</h3>
+              <h3 className="text-3xl text-white">{feedback2.commpanyName}</h3>
               <div className="mx-auto mt-2">
                 <Rating
                   className="text-yellow-400 mx-auto"
