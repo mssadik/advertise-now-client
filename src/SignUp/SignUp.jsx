@@ -104,7 +104,7 @@ const SignUp = () => {
               {errors.photoURL && <span className='text-red-600'>This field is required</span>}
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">SignUp</button>
+              <button className="btn bg-yellow-500 text-white">SignUp</button>
             </div>
             <p className='text-center'>Already have an acount?<Link to='/login' className='text-orange-400 font-bold'> Please Login</Link></p>
           </form>
