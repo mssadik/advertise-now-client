@@ -29,6 +29,9 @@ const SignUp = () => {
             console.log(updateUserprofile)
           })
         })
+        .chatch((e) =>{
+          console.log(e.message);
+        })
       } 
       
       
