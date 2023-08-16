@@ -1,5 +1,4 @@
-
-import './Advertisers.css';
+import "./Advertisers.css";
 
 const Advertisers = () => {
     return (
@@ -35,7 +34,11 @@ const Advertisers = () => {
                 </button>
             </div>
         </div>
-    );
+
+       
+
+        
+  );
 };
 
 export default Advertisers;
