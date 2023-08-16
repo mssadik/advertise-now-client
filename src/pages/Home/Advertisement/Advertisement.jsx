@@ -11,7 +11,7 @@ const Advertisement = () => {
   }, []);
 
   return (
-    <div className="py-16 w-11/12 mx-auto">
+    <div className="py-12 w-11/12 mx-auto">
       <div className="text-center py-5 mb-20">
         <h4 className="font-bold py-3 uppercase text-orange-500">Our Latest Advertisement Company</h4>
         <h2 className="font-bold text-3xl  uppercase">
@@ -20,7 +20,7 @@ const Advertisement = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 ">
         {adds.map((add) => (
-          <AdvertiseCard key={add.Id} add={add}></AdvertiseCard>
+          <AdvertiseCard key={add.id} add={add}></AdvertiseCard>
         ))}
       </div>
     </div>
