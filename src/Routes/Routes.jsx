@@ -5,6 +5,7 @@ import CardDetails from "../pages/Home/Advertisement/CardDetails";
 import Login from "../Login/Login";
 import SignUp from "../SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
+import AllCompany from "../pages/Home/AllCompany/AllCompany";
 
 
 export const router = createBrowserRouter([
@@ -27,6 +28,9 @@ export const router = createBrowserRouter([
       {
         path: '/signup',
         element: <SignUp></SignUp>
+      },{
+        path:'allCompany',
+        element: <AllCompany></AllCompany>
       }
     ],
   },

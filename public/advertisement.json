@@ -79,5 +79,32 @@
     "description": "Dell is a multinational technology company that specializes in developing, selling, and supporting computers etc.",
     "price": 0,
     "ratings": 4.9
+  },
+  {
+    "id": 10,
+    "name": "ASUS",
+    "category": "Pets",
+    "image": "https://www.shopz.com.bd/wp-content/uploads/2022/02/ASUS-Logo.jpg",
+    "description": "ASUS is a top multinational technology company that specializes in developing, selling, and supporting computers etc.",
+    "price": 0,
+    "ratings": 4.5
+  },
+  {
+    "id": 11,
+    "name": "CANON",
+    "category": "Pets",
+    "image": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Canon-Logo.jpg",
+    "description": "Canon is a top multinational technology company that specializes in developing, selling, and supporting computers etc.",
+    "price": 0,
+    "ratings": 4.1
+  },
+  {
+    "id": 12,
+    "name": "IMOU",
+    "category": "Pets",
+    "image": "https://www.shopz.com.bd/wp-content/uploads/2022/05/imou-Logo.jpg",
+    "description": "Imou is a top multinational technology company that specializes in developing, selling, and supporting computers etc.",
+    "price": 0,
+    "ratings": 4.8
   }
 ]

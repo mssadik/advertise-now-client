@@ -18,6 +18,7 @@ const Navbar = () => {
     const navItem = <>
             <li><Link className="uppercase font-bold" to='/'>Home</Link></li>
             <li><Link className="uppercase font-bold" to='/'>About</Link></li>
+            <li><Link className="uppercase font-bold" to='allCompany'>All Company</Link></li>
             <li><Link className="uppercase font-bold" to='/'>Services</Link></li>
         </>
   return (
