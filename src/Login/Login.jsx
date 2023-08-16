@@ -95,9 +95,9 @@ const Login = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <input disabled={desable} className="btn bg-yellow-500 text-white" type="submit" value="Login" />
+              <input disabled={desable} className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white" type="submit" value="Login" />
             </div>
-            <p className='text-center'>New Here?<Link className='text-orange-400 font-bold' to='/signup'>Register Please</Link></p>
+            <p className='text-center'>New Here? <Link className='text-orange-500 font-semibold' to='/signup'>Register Please</Link></p>
           </form>
         </div>
       </div>
