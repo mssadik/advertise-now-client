@@ -8,8 +8,8 @@ import "@smastrom/react-rating/style.css";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
-// import { useContext } from "react";
-// import { AuthContext } from "../../../Providers/AuthProviders";
+import { useContext } from "react";
+import { AuthContext } from "../../../Providers/AuthProviders";
 
 
 
@@ -17,7 +17,7 @@ const Feedback = () => {
   const [feedbacks, setFeedbacks] = useState([]);
   const [showFeedbackForm, setShowFeedbackForm] = useState(false)
   const [selectedRating, setSelectedRating] = useState(5);
-  // const {user} = useContext(AuthContext)
+  const {user} = useContext(AuthContext)
   useEffect(() => {
     // fetch("http://localhost:5000/feedbacks")
     fetch("feedback.json")
@@ -84,10 +84,10 @@ const Feedback = () => {
     const name = form.name.value;
     const email = form.email.value;
     const feedback = form.feedback.value;
-    // const img = user.photoUrl
+    const img = user.photoURL
 
 
-    const userFeedback = { name, email, selectedRating, feedback }
+    const userFeedback = { name, email, selectedRating, feedback, img }
     fetch('http://localhost:5000/feedback', {
       method: 'POST',
       headers: {
