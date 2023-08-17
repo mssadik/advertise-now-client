@@ -36,19 +36,12 @@ const SignUp = () => {
           .then(result = () => {
             const updateUserprofile = result.user;
             console.log(updateUserprofile)
-            
           })
         })
-<<<<<<< HEAD
         .catch((error) => {
           setError(error.message);
           setSuccess("");
         });
-=======
-        .chatch((e) =>{
-          console.log(e.message);
-        })
->>>>>>> cd4c5c0962c40bd5929a360e2dbf3c09d2e7f1cd
       } 
 
       const handleGoogleSignIn = () => {
