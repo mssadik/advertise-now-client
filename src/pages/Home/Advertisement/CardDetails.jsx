@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 
 const CardDetails = () => {
 
-  const {id, name, rating, description, image} = useParams();
+  const {id, name, image} = useParams();
 
 
   return (
