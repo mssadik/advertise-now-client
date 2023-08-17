@@ -1,7 +1,10 @@
 import { Rating } from "@smastrom/react-rating";
 import { Link } from "react-router-dom";
-const AdvertiseCard = ({ add }) => {
-  const { id, name, description, image, ratings } = add;
+
+const AllCompanyCard = (allCompany) => {
+  const { id, name, description, image, ratings } = allCompany.allCompany;
+
+  console.log(allCompany);
 
   return (
     <div>
@@ -34,4 +37,5 @@ const AdvertiseCard = ({ add }) => {
     </div>
   );
 };
-export default AdvertiseCard;
+
+export default AllCompanyCard;
