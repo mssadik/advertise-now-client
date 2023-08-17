@@ -5,6 +5,7 @@ import { useContext } from "react";
 
 const Navbar = () => {
   const {user,logOut} = useContext(AuthContext);
+  // console.log(user);
   const handleSignOut = () => {
     logOut()
     .then(() => {
@@ -61,7 +62,8 @@ const Navbar = () => {
             <Link onClick={handleSignOut}><a className="btn bg-orange-700 border-none px-6 uppercase text-white">signOut</a></Link>
           </> 
           :
-          <Link to="/login"><a className="btn bg-orange-700 border-none px-6 uppercase text-white">Login</a></Link>
+          // <Link to="/login"><a className="btn bg-orange-700 border-none px-6 uppercase text-white">Login</a></Link>
+          <Link className="btn bg-orange-700 border-none px-6 uppercase text-white" to="/login">Login</Link>
         }
       </div>
     </div>
