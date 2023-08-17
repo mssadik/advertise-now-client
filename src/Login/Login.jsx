@@ -5,12 +5,16 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Providers/AuthProviders';
+import { FaGoogle } from "react-icons/fa";
+
 const Login = () => {
+  const [error, setError] = useState(null);
+  const [success, setSuccess] = useState(null);
 
     const captchaRef = useRef();
     const [desable, setdesable] = useState(true)
 
-    const {signIn} = useContext(AuthContext);
+    const {signIn , googleSignIn} = useContext(AuthContext);
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -28,9 +32,30 @@ const Login = () => {
         .then(result => {
           const user = result.user;
           console.log(user)
+          navigate(from, {replace: true});
         })
-        navigate(from, {replace: true});
-    }
+        .catch((error) => {
+          setError(error.message);
+          setSuccess("");
+        });
+        
+    };
+
+    const handleGoogleSignIn = () => {
+      googleSignIn()
+        .then((result) => {
+          const signInUser = result.user;
+          console.log(signInUser);
+          setSuccess("User sign in by google successfully");
+          setError("");
+          navigate(from);
+        })
+        .catch((error) => {
+          setError(error.message);
+          setSuccess("");
+        });
+    };
+
     useEffect(()=> {
         loadCaptchaEnginge(6);
     },[]);
@@ -46,6 +71,7 @@ const Login = () => {
             setdesable(true)
         }
     }
+
   return (
     <div className="hero bg-base-200 py-24">
       <div className="hero-content justify-center items-center gap-12 md:gap-20 flex-col-reverse md:flex-row">
@@ -95,9 +121,12 @@ const Login = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <input disabled={desable} className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white" type="submit" value="Login" />
+              <input disabled={desable} className="btn btn-warning text-white" type="submit" value="Login" />
+              <button onClick={handleGoogleSignIn} className='mt-3 btn btn-outline btn-warning text-white'><FaGoogle></FaGoogle>LogIn By Google</button>
             </div>
-            <p className='text-center'>New Here? <Link className='text-orange-500 font-semibold' to='/signup'>Register Please</Link></p>
+            <p className='text-center'>New Here?<Link className='text-orange-400 font-bold' to='/signup'>Register Please</Link></p>
+            <p className="font-bold text-enter text-rose-300"><small>{error}</small></p>
+            <p className="font-bold text-enter text-teal-300"><small>{success}</small></p>
           </form>
         </div>
       </div>

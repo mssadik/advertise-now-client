@@ -12,7 +12,7 @@ const AllCompany = () => {
   }, []);
 
   return (
-    <div className="py-12 w-11/12 mx-auto ">
+    <div className="py-12 w-11/12 mx-auto mb-10">
       <div className="text-center py-5 my-20">
         <h4 className="font-bold py-3 uppercase text-orange-500">
           Our All Brand Companies
