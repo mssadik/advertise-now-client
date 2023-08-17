@@ -1,13 +1,20 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
+import { FaGoogle } from "react-icons/fa";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AuthContext } from '../Providers/AuthProviders';
 
 const SignUp = () => {
-  const {createUser,updateUserProfile} = useContext(AuthContext);
+
+  const [error, setError] = useState(null);
+  const [success, setSuccess] = useState(null);
+
+  const navigate = useNavigate();
+
+  const {createUser,updateUserProfile, googleSignIn} = useContext(AuthContext);
     const {
         register,
         handleSubmit,
@@ -20,16 +27,38 @@ const SignUp = () => {
         createUser(data.email, data.password)
         .then(result => {
           const createUser = result.user;
+          setError('');
           console.log(createUser);
           toast("User Register Successfully!");
           reset();
+          navigate('/');
           updateUserProfile(data.name, data.photoURL)
           .then(result = () => {
             const updateUserprofile = result.user;
             console.log(updateUserprofile)
+            
           })
         })
+        .catch((error) => {
+          setError(error.message);
+          setSuccess("");
+        });
       } 
+
+      const handleGoogleSignIn = () => {
+        googleSignIn()
+          .then((result) => {
+            const signInUser = result.user;
+            console.log(signInUser);
+            setSuccess("User sign in by google successfully");
+            setError("");
+            navigate('/');
+          })
+          .catch((error) => {
+            setError(error.message);
+            setSuccess("");
+          });
+      };
       
       
   return (
@@ -104,9 +133,12 @@ const SignUp = () => {
               {errors.photoURL && <span className='text-red-600'>This field is required</span>}
             </div>
             <div className="form-control mt-6">
-              <button className="btn bg-yellow-500 text-white">SignUp</button>
+            <input className="btn btn-warning text-white" type="submit" value="signUp" />
+            <button onClick={handleGoogleSignIn} className='mt-3 btn btn-outline btn-warning text-white'><FaGoogle></FaGoogle>LogIn By Google</button>
             </div>
             <p className='text-center'>Already have an acount?<Link to='/login' className='text-orange-400 font-bold'> Please Login</Link></p>
+            <p className="font-bold text-enter text-rose-500"><small>{error}</small></p>
+            <p className="font-bold text-enter text-teal-300"><small>{success}</small></p>
           </form>
         </div>
       </div>
