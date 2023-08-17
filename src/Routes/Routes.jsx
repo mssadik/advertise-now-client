@@ -18,8 +18,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/cardDetails/:id",
-        element: (<PrivateRoute><CardDetails></CardDetails></PrivateRoute>
-        ),
+        element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>
       },
       {
         path: "/login",

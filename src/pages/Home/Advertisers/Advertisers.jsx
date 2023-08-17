@@ -4,7 +4,7 @@ const Advertisers = () => {
     return (
         <div className="py-12 ">
             <div className="text-center p-5">
-                <h3 className="font-bold text-orange-300">FOR ADVERTISERS</h3>
+                <h3 className="font-bold text-orange-500">FOR ADVERTISERS</h3>
                 <h1 className="font-extrabold text-4xl text-black pb-4">CHAMPIONING YOUR GOALS</h1>
             </div>
             <div className="flex gap-y-16 flex-col  md:flex-row items-center justify-center md:space-x-8 p-8">

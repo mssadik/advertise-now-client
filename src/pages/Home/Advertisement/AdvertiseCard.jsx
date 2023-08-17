@@ -26,7 +26,7 @@ const AdvertiseCard = ({ add }) => {
               to={`/cardDetails/${id}`}
               className="btn bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white"
             >
-              View Details
+              Company Profile
             </Link>
           </div>
         </div>
