@@ -18,6 +18,7 @@ const Navbar = () => {
     const navItem = <>
             <li><Link className="uppercase font-bold" to='/'>Home</Link></li>
             <li><Link className="uppercase font-bold" to='/'>About</Link></li>
+            <li><Link className="uppercase font-bold" to='allCompany'>All Company</Link></li>
             <li><Link className="uppercase font-bold" to='/'>Services</Link></li>
         </>
   return (
@@ -59,11 +60,11 @@ const Navbar = () => {
           user ?
           <>
             <img style={{height: '50px', width: '50px'}} className="rounded-full mr-2 md:mr-4" src={user?.photoURL} alt="" />
-            <Link onClick={handleSignOut}><a className="btn bg-orange-700 border-none px-6 uppercase text-white">signOut</a></Link>
+            <Link onClick={handleSignOut}><a className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white">signOut</a></Link>
           </> 
           :
           // <Link to="/login"><a className="btn bg-orange-700 border-none px-6 uppercase text-white">Login</a></Link>
-          <Link className="btn bg-orange-700 border-none px-6 uppercase text-white" to="/login">Login</Link>
+          <Link className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white" to="/login">Login</Link>
         }
       </div>
     </div>
