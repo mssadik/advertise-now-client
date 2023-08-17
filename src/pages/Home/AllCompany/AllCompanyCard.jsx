@@ -2,7 +2,7 @@ import { Rating } from "@smastrom/react-rating";
 import { Link } from "react-router-dom";
 
 const AllCompanyCard = (allCompany) => {
-  const { name, description, image, ratings } = allCompany.allCompany;
+  const { id, name, description, image, ratings } = allCompany.allCompany;
 
   console.log(allCompany);
 
@@ -26,7 +26,7 @@ const AllCompanyCard = (allCompany) => {
             </h4>
 
             <Link
-              to={"/cardDetails"}
+              to={`/cardDetails/${id}`}
               className="btn bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white"
             >
               View Details
