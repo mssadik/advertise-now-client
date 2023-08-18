@@ -1,7 +1,7 @@
 import { Rating } from "@smastrom/react-rating";
 import { Link } from "react-router-dom";
 const AdvertiseCard = ({ add }) => {
-  const { id, logo_url, name, description, rating  } = add;
+  const { _id, logo_url, name, description, rating } = add;
 
   return (
     <div>
@@ -23,7 +23,7 @@ const AdvertiseCard = ({ add }) => {
             </h4>
 
             <Link
-              to={`/cardDetails/${id}`}
+              to={`/cardDetails/${_id}`}
               className="btn bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white"
             >
               Company Profile
