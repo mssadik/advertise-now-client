@@ -2,530 +2,309 @@
 [
   {
     "id": "ad123",
-    "company": {
-      "name": "ABC Electronics",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2021/10/Xiaomi-logo.png",
-      "website": "https://www.abcelectronics.com",
-      "contact": {
-        "email": "contact@abcelectronics.com",
-        "phone": "+123-456-7890",
-        "address": {
-          "street": "123 Main Street",
-          "city": "Techville",
-          "state": "Electrostate",
-          "postal_code": "12345",
-          "country": "Electroland"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/abcelectronics",
-        "twitter": "https://www.twitter.com/abcelectronics"
-      }
-    },
-    "advertisement": {
-      "title": "Experience Entertainment with our Latest Smart TV",
-      "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
-      "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.abcelectronics.com/smart-tv",
-      "promo_code": "SMARTTV10",
-      "valid_until": "2023-10-15",
-      "reviews": [
-        {
-          "author": "MovieBuff101",
-          "rating": 4.0,
-          "comment": "The picture quality is stunning, and the built-in apps make it a breeze to use."
-        },
-        {
-          "author": "TechGeek456",
-          "rating": 4.5,
-          "comment": "Great value for the features it offers. Highly recommend!"
-        }
-      ]
-    }
+    "name": "ABC Electronics",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2021/10/Xiaomi-logo.png",
+    "website": "https://www.abcelectronics.com",
+    "email": "contact@abcelectronics.com",
+    "phone": "+123-456-7890",
+    "street": "123 Main Street",
+    "city": "Techville",
+    "state": "Electrostate",
+    "postal_code": "12345",
+    "country": "Electroland",
+    "facebook": "https://www.facebook.com/abcelectronics",
+    "twitter": "https://www.twitter.com/abcelectronics",
+    "title": "Experience Entertainment with our Latest Smart TV",
+    "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
+    "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.abcelectronics.com/smart-tv",
+    "promo_code": "SMARTTV10",
+    "valid_until": "2023-10-15",
+    "author": "TechGeek456",
+    "rating": 4.5,
+    "comment": "Great value for the features it offers. Highly recommend!"
   },
   {
     "id": "ad456",
-    "company": {
-      "name": "FashionFusion",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/SHINECON-Logo.jpg",
-      "website": "https://www.fashionfusion.com",
-      "contact": {
-        "email": "info@fashionfusion.com",
-        "phone": "+987-654-3210",
-        "address": {
-          "street": "789 Style Avenue",
-          "city": "Fashionville",
-          "state": "Fashionland",
-          "postal_code": "54321",
-          "country": "Fashionia"
-        }
-      },
-      "social_media": {
-        "instagram": "https://www.instagram.com/fashionfusion",
-        "twitter": "https://www.twitter.com/fashionfusion"
-      }
-    },
-    "advertisement": {
-      "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
-      "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
-      "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.fashionfusion.com/summer-sale",
-      "promo_code": "SUMMER50",
-      "valid_until": "2023-08-31",
-      "reviews": [
-        {
-          "author": "Fashionista123",
-          "rating": 5.0,
-          "comment": "I love the unique designs and the discounts are unbeatable!"
-        },
-        {
-          "author": "StyleIcon456",
-          "rating": 4.8,
-          "comment": "Great quality and variety. Perfect for staying stylish this summer."
-        }
-      ]
-    }
+    "name": "FashionFusion",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/SHINECON-Logo.jpg",
+    "website": "https://www.fashionfusion.com",
+    "email": "info@fashionfusion.com",
+    "phone": "+987-654-3210",
+    "street": "789 Style Avenue",
+    "city": "Fashionville",
+    "state": "Fashionland",
+    "postal_code": "54321",
+    "country": "Fashionia",
+    "instagram": "https://www.instagram.com/fashionfusion",
+    "twitter": "https://www.twitter.com/fashionfusion",
+    "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
+    "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
+    "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.fashionfusion.com/summer-sale",
+    "promo_code": "SUMMER50",
+    "valid_until": "2023-08-31",
+    "author": "Fashionista123",
+    "rating": 5.0,
+    "comment": "I love the unique designs and the discounts are unbeatable!"
   },
   {
     "id": "ad789",
-    "company": {
-      "name": "FreshBites",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/Joyroom-Logo.jpg",
-      "website": "https://www.freshbitesrestaurant.com",
-      "contact": {
-        "email": "hello@freshbitesrestaurant.com",
-        "phone": "+555-123-4567",
-        "address": {
-          "street": "456 Food Street",
-          "city": "Flavorville",
-          "state": "Tasteland",
-          "postal_code": "67890",
-          "country": "Cuisine Country"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/freshbitesrestaurant",
-        "instagram": "https://www.instagram.com/freshbitesrestaurant"
-      }
-    },
-    "advertisement": {
-      "title": "Discover Our New Culinary Delights",
-      "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
-      "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
-      "cta_text": "View Menu",
-      "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
-      "promo_code": "TASTE15",
-      "valid_until": "2023-09-15",
-      "reviews": [
-        {
-          "author": "FoodieGourmet123",
-          "rating": 4.7,
-          "comment": "Each dish was a masterpiece. Can't wait to visit again!"
-        },
-        {
-          "author": "CulinaryExplorer456",
-          "rating": 5.0,
-          "comment": "A culinary journey like no other. The new menu is exceptional."
-        }
-      ]
-    }
+    "name": "FreshBites",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/Joyroom-Logo.jpg",
+    "website": "https://www.freshbitesrestaurant.com",
+    "email": "hello@freshbitesrestaurant.com",
+    "phone": "+555-123-4567",
+    "street": "456 Food Street",
+    "city": "Flavorville",
+    "state": "Tasteland",
+    "postal_code": "67890",
+    "country": "Cuisine Country",
+    "facebook": "https://www.facebook.com/freshbitesrestaurant",
+    "instagram": "https://www.instagram.com/freshbitesrestaurant",
+
+
+
+    "title": "Discover Our New Culinary Delights",
+    "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
+    "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
+    "cta_text": "View Menu",
+    "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
+    "promo_code": "TASTE15",
+    "valid_until": "2023-09-15",
+
+    "author": "CulinaryExplorer456",
+    "rating": 5.0,
+    "comment": "A culinary journey like no other. The new menu is exceptional."
+ 
+
   },
   {
     "id": "ad101",
-    "company": {
-      "name": "EcoTech Solutions",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/04/Realme-logo.jpg",
-      "website": "https://www.ecotechsolutions.com",
-      "contact": {
-        "email": "info@ecotechsolutions.com",
-        "phone": "+789-012-3456",
-        "address": {
-          "street": "789 Eco Street",
-          "city": "Greenville",
-          "state": "Sustainville",
-          "postal_code": "54321",
-          "country": "EcoLand"
-        }
-      },
-      "social_media": {
-        "twitter": "https://www.twitter.com/ecotechsolutions",
-        "linkedin": "https://www.linkedin.com/company/ecotechsolutions"
-      }
-    },
-    "advertisement": {
-      "title": "Harness the Power of Green Energy",
-      "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
-      "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
-      "cta_text": "Learn More",
-      "cta_url": "https://www.ecotechsolutions.com/green-energy",
-      "promo_code": "ECOPOWER20",
-      "valid_until": "2023-12-31",
-      "reviews": [
-        {
-          "author": "GreenEnthusiast123",
-          "rating": 4.8,
-          "comment": "The solar panels transformed my energy consumption. Highly recommend!"
-        },
-        {
-          "author": "ClimateAdvocate456",
-          "rating": 5.0,
-          "comment": "A step towards a sustainable future. Exceptional products and service."
-        }
-      ]
-    }
+    "name": "EcoTech Solutions",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/04/Realme-logo.jpg",
+    "website": "https://www.ecotechsolutions.com",
+    "email": "info@ecotechsolutions.com",
+    "phone": "+789-012-3456",
+    "street": "789 Eco Street",
+    "city": "Greenville",
+    "state": "Sustainville",
+    "postal_code": "54321",
+    "country": "EcoLand",
+    "twitter": "https://www.twitter.com/ecotechsolutions",
+    "linkedin": "https://www.linkedin.com/company/ecotechsolutions",
+    "title": "Harness the Power of Green Energy",
+    "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
+    "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
+    "cta_text": "Learn More",
+    "cta_url": "https://www.ecotechsolutions.com/green-energy",
+    "promo_code": "ECOPOWER20",
+    "valid_until": "2023-12-31",
+    "author": "GreenEnthusiast123",
+    "rating": 4.8,
+    "comment": "The solar panels transformed my energy consumption. Highly recommend!"
   },
   {
     "id": "ad102",
-    "company": {
-      "name": "ABC Electronics",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/UGREEN-Logo.jpg",
-      "website": "https://www.abcelectronics.com",
-      "contact": {
-        "email": "contact@abcelectronics.com",
-        "phone": "+123-456-7890",
-        "address": {
-          "street": "123 Main Street",
-          "city": "Techville",
-          "state": "Electrostate",
-          "postal_code": "12345",
-          "country": "Electroland"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/abcelectronics",
-        "twitter": "https://www.twitter.com/abcelectronics"
-      }
-    },
-    "advertisement": {
-      "title": "Experience Entertainment with our Latest Smart TV",
-      "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
-      "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.abcelectronics.com/smart-tv",
-      "promo_code": "SMARTTV10",
-      "valid_until": "2023-10-15",
-      "reviews": [
-        {
-          "author": "MovieBuff101",
-          "rating": 4.0,
-          "comment": "The picture quality is stunning, and the built-in apps make it a breeze to use."
-        },
-        {
-          "author": "TechGeek456",
-          "rating": 4.5,
-          "comment": "Great value for the features it offers. Highly recommend!"
-        }
-      ]
-    }
-  },
+    "name": "ABC Electronics",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/UGREEN-Logo.jpg",
+    "website": "https://www.abcelectronics.com",
+    "email": "contact@abcelectronics.com",
+    "phone": "+123-456-7890",
+    "street": "123 Main Street",
+    "city": "Techville",
+    "state": "Electrostate",
+    "postal_code": "12345",
+    "country": "Electroland",
+    "facebook": "https://www.facebook.com/abcelectronics",
+    "twitter": "https://www.twitter.com/abcelectronics",
+    "title": "Experience Entertainment with our Latest Smart TV",
+    "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
+    "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.abcelectronics.com/smart-tv",
+    "promo_code": "SMARTTV10",
+    "valid_until": "2023-10-15",
+    "author": "MovieBuff101",
+    "rating": 4.0,
+    "comment": "The picture quality is stunning, and the built-in apps make it a breeze to use."
+  },  
   {
     "id": "ad103",
-    "company": {
-      "name": "FashionFusion",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2023/03/Super-Star-Logo.jpg",
-      "website": "https://www.fashionfusion.com",
-      "contact": {
-        "email": "info@fashionfusion.com",
-        "phone": "+987-654-3210",
-        "address": {
-          "street": "789 Style Avenue",
-          "city": "Fashionville",
-          "state": "Fashionland",
-          "postal_code": "54321",
-          "country": "Fashionia"
-        }
-      },
-      "social_media": {
-        "instagram": "https://www.instagram.com/fashionfusion",
-        "twitter": "https://www.twitter.com/fashionfusion"
-      }
-    },
-    "advertisement": {
-      "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
-      "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
-      "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.fashionfusion.com/summer-sale",
-      "promo_code": "SUMMER50",
-      "valid_until": "2023-08-31",
-      "reviews": [
-        {
-          "author": "Fashionista123",
-          "rating": 5.0,
-          "comment": "I love the unique designs and the discounts are unbeatable!"
-        },
-        {
-          "author": "StyleIcon456",
-          "rating": 4.8,
-          "comment": "Great quality and variety. Perfect for staying stylish this summer."
-        }
-      ]
-    }
-  },
+    "name": "FashionFusion",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2023/03/Super-Star-Logo.jpg",
+    "website": "https://www.fashionfusion.com",
+    "email": "info@fashionfusion.com",
+    "phone": "+987-654-3210",
+    "street": "789 Style Avenue",
+    "city": "Fashionville",
+    "state": "Fashionland",
+    "postal_code": "54321",
+    "country": "Fashionia",
+    "instagram": "https://www.instagram.com/fashionfusion",
+    "twitter": "https://www.twitter.com/fashionfusion",
+    "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
+    "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
+    "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.fashionfusion.com/summer-sale",
+    "promo_code": "SUMMER50",
+    "valid_until": "2023-08-31",
+    "author": "Fashionista123",
+    "rating": 5.0,
+    "comment": "I love the unique designs and the discounts are unbeatable!"
+  },  
   {
     "id": "ad104",
-    "company": {
-      "name": "FreshBites",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2023/03/SENCOR-Logo.jpg",
-      "website": "https://www.freshbitesrestaurant.com",
-      "contact": {
-        "email": "hello@freshbitesrestaurant.com",
-        "phone": "+555-123-4567",
-        "address": {
-          "street": "456 Food Street",
-          "city": "Flavorville",
-          "state": "Tasteland",
-          "postal_code": "67890",
-          "country": "Cuisine Country"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/freshbitesrestaurant",
-        "instagram": "https://www.instagram.com/freshbitesrestaurant"
-      }
-    },
-    "advertisement": {
-      "title": "Discover Our New Culinary Delights",
-      "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
-      "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
-      "cta_text": "View Menu",
-      "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
-      "promo_code": "TASTE15",
-      "valid_until": "2023-09-15",
-      "reviews": [
-        {
-          "author": "FoodieGourmet123",
-          "rating": 4.7,
-          "comment": "Each dish was a masterpiece. Can't wait to visit again!"
-        },
-        {
-          "author": "CulinaryExplorer456",
-          "rating": 5.0,
-          "comment": "A culinary journey like no other. The new menu is exceptional."
-        }
-      ]
-    }
+    "name": "FreshBites",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2023/03/SENCOR-Logo.jpg",
+    "website": "https://www.freshbitesrestaurant.com",
+    "email": "hello@freshbitesrestaurant.com",
+    "phone": "+555-123-4567",
+    "street": "456 Food Street",
+    "city": "Flavorville",
+    "state": "Tasteland",
+    "postal_code": "67890",
+    "country": "Cuisine Country",
+    "facebook": "https://www.facebook.com/freshbitesrestaurant",
+    "instagram": "https://www.instagram.com/freshbitesrestaurant",
+    "title": "Discover Our New Culinary Delights",
+    "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
+    "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
+    "cta_text": "View Menu",
+    "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
+    "promo_code": "TASTE15",
+    "valid_until": "2023-09-15",
+    "author": "FoodieGourmet123",
+    "rating": 4.7,
+    "comment": "Each dish was a masterpiece. Can't wait to visit again!"
   },
+
   {
     "id": "ad105",
-    "company": {
-      "name": "EcoTech Solutions",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2021/11/Anker-Logo.jpg",
-      "website": "https://www.ecotechsolutions.com",
-      "contact": {
-        "email": "info@ecotechsolutions.com",
-        "phone": "+789-012-3456",
-        "address": {
-          "street": "789 Eco Street",
-          "city": "Greenville",
-          "state": "Sustainville",
-          "postal_code": "54321",
-          "country": "EcoLand"
-        }
-      },
-      "social_media": {
-        "twitter": "https://www.twitter.com/ecotechsolutions",
-        "linkedin": "https://www.linkedin.com/company/ecotechsolutions"
-      }
-    },
-    "advertisement": {
-      "title": "Harness the Power of Green Energy",
-      "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
-      "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
-      "cta_text": "Learn More",
-      "cta_url": "https://www.ecotechsolutions.com/green-energy",
-      "promo_code": "ECOPOWER20",
-      "valid_until": "2023-12-31",
-      "reviews": [
-        {
-          "author": "GreenEnthusiast123",
-          "rating": 4.8,
-          "comment": "The solar panels transformed my energy consumption. Highly recommend!"
-        },
-        {
-          "author": "ClimateAdvocate456",
-          "rating": 5.0,
-          "comment": "A step towards a sustainable future. Exceptional products and service."
-        }
-      ]
-    }
-  },
+    "name": "EcoTech Solutions",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2021/11/Anker-Logo.jpg",
+    "website": "https://www.ecotechsolutions.com",
+    "email": "info@ecotechsolutions.com",
+    "phone": "+789-012-3456",
+    "street": "789 Eco Street",
+    "city": "Greenville",
+    "state": "Sustainville",
+    "postal_code": "54321",
+    "country": "EcoLand",
+    "twitter": "https://www.twitter.com/ecotechsolutions",
+    "linkedin": "https://www.linkedin.com/company/ecotechsolutions",
+    "title": "Harness the Power of Green Energy",
+    "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
+    "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
+    "cta_text": "Learn More",
+    "cta_url": "https://www.ecotechsolutions.com/green-energy",
+    "promo_code": "ECOPOWER20",
+    "valid_until": "2023-12-31",
+    "author": "GreenEnthusiast123",
+    "rating": 4.8,
+    "comment": "The solar panels transformed my energy consumption. Highly recommend!"
+  },  
   {
     "id": "ad106",
-    "company": {
-      "name": "ABC Electronics",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Dell-Logo.jpg",
-      "website": "https://www.abcelectronics.com",
-      "contact": {
-        "email": "contact@abcelectronics.com",
-        "phone": "+123-456-7890",
-        "address": {
-          "street": "123 Main Street",
-          "city": "Techville",
-          "state": "Electrostate",
-          "postal_code": "12345",
-          "country": "Electroland"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/abcelectronics",
-        "twitter": "https://www.twitter.com/abcelectronics"
-      }
-    },
-    "advertisement": {
-      "title": "Experience Entertainment with our Latest Smart TV",
-      "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
-      "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.abcelectronics.com/smart-tv",
-      "promo_code": "SMARTTV10",
-      "valid_until": "2023-10-15",
-      "reviews": [
-        {
-          "author": "MovieBuff101",
-          "rating": 4.0,
-          "comment": "The picture quality is stunning, and the built-in apps make it a breeze to use."
-        },
-        {
-          "author": "TechGeek456",
-          "rating": 4.5,
-          "comment": "Great value for the features it offers. Highly recommend!"
-        }
-      ]
-    }
-  },
+    "name": "ABC Electronics",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Dell-Logo.jpg",
+    "website": "https://www.abcelectronics.com",
+    "email": "contact@abcelectronics.com",
+    "phone": "+123-456-7890",
+    "street": "123 Main Street",
+    "city": "Techville",
+    "state": "Electrostate",
+    "postal_code": "12345",
+    "country": "Electroland",
+    "facebook": "https://www.facebook.com/abcelectronics",
+    "twitter": "https://www.twitter.com/abcelectronics",
+    "title": "Experience Entertainment with our Latest Smart TV",
+    "description": "Immerse yourself in high-definition content with our new Smart TV. Featuring 4K resolution and a variety of streaming apps.",
+    "image_url": "https://www.abcelectronics.com/images/smart-tv.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.abcelectronics.com/smart-tv",
+    "promo_code": "SMARTTV10",
+    "valid_until": "2023-10-15",
+    "author": "MovieBuff101",
+    "rating": 4.0,
+    "comment": "The picture quality is stunning, and the built-in apps make it a breeze to use."
+  },  
   {
     "id": "ad107",
-    "company": {
-      "name": "FashionFusion",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/ASUS-Logo.jpg",
-      "website": "https://www.fashionfusion.com",
-      "contact": {
-        "email": "info@fashionfusion.com",
-        "phone": "+987-654-3210",
-        "address": {
-          "street": "789 Style Avenue",
-          "city": "Fashionville",
-          "state": "Fashionland",
-          "postal_code": "54321",
-          "country": "Fashionia"
-        }
-      },
-      "social_media": {
-        "instagram": "https://www.instagram.com/fashionfusion",
-        "twitter": "https://www.twitter.com/fashionfusion"
-      }
-    },
-    "advertisement": {
-      "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
-      "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
-      "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
-      "cta_text": "Shop Now",
-      "cta_url": "https://www.fashionfusion.com/summer-sale",
-      "promo_code": "SUMMER50",
-      "valid_until": "2023-08-31",
-      "reviews": [
-        {
-          "author": "Fashionista123",
-          "rating": 5.0,
-          "comment": "I love the unique designs and the discounts are unbeatable!"
-        },
-        {
-          "author": "StyleIcon456",
-          "rating": 4.8,
-          "comment": "Great quality and variety. Perfect for staying stylish this summer."
-        }
-      ]
-    }
-  },
+    "name": "FashionFusion",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/ASUS-Logo.jpg",
+    "website": "https://www.fashionfusion.com",
+    "email": "info@fashionfusion.com",
+    "phone": "+987-654-3210",
+    "street": "789 Style Avenue",
+    "city": "Fashionville",
+    "state": "Fashionland",
+    "postal_code": "54321",
+    "country": "Fashionia",
+    "instagram": "https://www.instagram.com/fashionfusion",
+    "twitter": "https://www.twitter.com/fashionfusion",
+    "title": "Summer Sale: Up to 50% Off on Trendy Clothing",
+    "description": "Upgrade your summer wardrobe with the latest trends. Get up to 50% off on dresses, tops, and accessories.",
+    "image_url": "https://www.fashionfusion.com/images/summer-sale.jpg",
+    "cta_text": "Shop Now",
+    "cta_url": "https://www.fashionfusion.com/summer-sale",
+    "promo_code": "SUMMER50",
+    "valid_until": "2023-08-31",
+    "author": "Fashionista123",
+    "rating": 5.0,
+    "comment": "I love the unique designs and the discounts are unbeatable!"
+  },  
   {
     "id": "ad108",
-    "company": {
-      "name": "FreshBites",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Canon-Logo.jpg",
-      "website": "https://www.freshbitesrestaurant.com",
-      "contact": {
-        "email": "hello@freshbitesrestaurant.com",
-        "phone": "+555-123-4567",
-        "address": {
-          "street": "456 Food Street",
-          "city": "Flavorville",
-          "state": "Tasteland",
-          "postal_code": "67890",
-          "country": "Cuisine Country"
-        }
-      },
-      "social_media": {
-        "facebook": "https://www.facebook.com/freshbitesrestaurant",
-        "instagram": "https://www.instagram.com/freshbitesrestaurant"
-      }
-    },
-    "advertisement": {
-      "title": "Discover Our New Culinary Delights",
-      "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
-      "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
-      "cta_text": "View Menu",
-      "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
-      "promo_code": "TASTE15",
-      "valid_until": "2023-09-15",
-      "reviews": [
-        {
-          "author": "FoodieGourmet123",
-          "rating": 4.7,
-          "comment": "Each dish was a masterpiece. Can't wait to visit again!"
-        },
-        {
-          "author": "CulinaryExplorer456",
-          "rating": 5.0,
-          "comment": "A culinary journey like no other. The new menu is exceptional."
-        }
-      ]
-    }
-  },
+    "name": "FreshBites",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/02/Canon-Logo.jpg",
+    "website": "https://www.freshbitesrestaurant.com",
+    "email": "hello@freshbitesrestaurant.com",
+    "phone": "+555-123-4567",
+    "street": "456 Food Street",
+    "city": "Flavorville",
+    "state": "Tasteland",
+    "postal_code": "67890",
+    "country": "Cuisine Country",
+    "facebook": "https://www.facebook.com/freshbitesrestaurant",
+    "instagram": "https://www.instagram.com/freshbitesrestaurant",
+    "title": "Discover Our New Culinary Delights",
+    "description": "Indulge in the flavors of our freshly launched menu. From appetizers to desserts, a treat for your taste buds.",
+    "image_url": "https://www.freshbitesrestaurant.com/images/new-menu.jpg",
+    "cta_text": "View Menu",
+    "cta_url": "https://www.freshbitesrestaurant.com/new-menu",
+    "promo_code": "TASTE15",
+    "valid_until": "2023-09-15",
+    "author": "FoodieGourmet123",
+    "rating": 4.7,
+    "comment": "Each dish was a masterpiece. Can't wait to visit again!"
+  },  
   {
     "id": "ad109",
-    "company": {
-      "name": "EcoTech Solutions",
-      "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/imou-Logo.jpg",
-      "website": "https://www.ecotechsolutions.com",
-      "contact": {
-        "email": "info@ecotechsolutions.com",
-        "phone": "+789-012-3456",
-        "address": {
-          "street": "789 Eco Street",
-          "city": "Greenville",
-          "state": "Sustainville",
-          "postal_code": "54321",
-          "country": "EcoLand"
-        }
-      },
-      "social_media": {
-        "twitter": "https://www.twitter.com/ecotechsolutions",
-        "linkedin": "https://www.linkedin.com/company/ecotechsolutions"
-      }
-    },
-    "advertisement": {
-      "title": "Harness the Power of Green Energy",
-      "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
-      "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
-      "cta_text": "Learn More",
-      "cta_url": "https://www.ecotechsolutions.com/green-energy",
-      "promo_code": "ECOPOWER20",
-      "valid_until": "2023-12-31",
-      "reviews": [
-        {
-          "author": "GreenEnthusiast123",
-          "rating": 4.8,
-          "comment": "The solar panels transformed my energy consumption. Highly recommend!"
-        },
-        {
-          "author": "ClimateAdvocate456",
-          "rating": 5.0,
-          "comment": "A step towards a sustainable future. Exceptional products and service."
-        }
-      ]
-    }
-  }
+    "name": "EcoTech Solutions",
+    "logo_url": "https://www.shopz.com.bd/wp-content/uploads/2022/05/imou-Logo.jpg",
+    "website": "https://www.ecotechsolutions.com",
+    "email": "info@ecotechsolutions.com",
+    "phone": "+789-012-3456",
+    "street": "789 Eco Street",
+    "city": "Greenville",
+    "state": "Sustainville",
+    "postal_code": "54321",
+    "country": "EcoLand",
+    "twitter": "https://www.twitter.com/ecotechsolutions",
+    "linkedin": "https://www.linkedin.com/company/ecotechsolutions",
+    "title": "Harness the Power of Green Energy",
+    "description": "Go eco-friendly with our solar panels and energy-efficient solutions. Save money and the environment.",
+    "image_url": "https://www.ecotechsolutions.com/images/green-energy.jpg",
+    "cta_text": "Learn More",
+    "cta_url": "https://www.ecotechsolutions.com/green-energy",
+    "promo_code": "ECOPOWER20",
+    "valid_until": "2023-12-31",
+    "author": "GreenEnthusiast123",
+    "rating": 4.8,
+    "comment": "The solar panels transformed my energy consumption. Highly recommend!"
+  }  
 ]
