@@ -17,8 +17,8 @@ const Feedback = () => {
   const [selectedRating, setSelectedRating] = useState(5);
   const {user} = useContext(AuthContext)
   useEffect(() => {
-    // fetch("http://localhost:5000/feedbacks")
-    fetch("feedback.json")
+    fetch("http://localhost:5000/feedbacks")
+    // fetch("feedback.json")
       .then((res) => res.json())
       .then((data) => setFeedbacks(data));
   }, []);
@@ -37,7 +37,7 @@ const Feedback = () => {
                 src={feedback1.img}
                 alt=""
               />
-              <h3 className="text-3xl text-white">{feedback1.clientName}</h3>
+              <h3 className="text-3xl text-white">{feedback1.commpanyName}</h3>
               <div className=" mt-2">
                 <Rating
                   className="text-yellow-400 mx-auto"
@@ -56,7 +56,7 @@ const Feedback = () => {
                 src={feedback2.img}
                 alt=""
               />
-              <h3 className="text-3xl text-white">{feedback2.clientName}</h3>
+              <h3 className="text-3xl text-white">{feedback2.commpanyName}</h3>
               <div className="mx-auto mt-2">
                 <Rating
                   className="text-yellow-400 mx-auto"
@@ -76,13 +76,13 @@ const Feedback = () => {
   const handleFeedbackSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
-    const name = form.name.value;
+    const commpanyName = form.commpanyName.value;
     const email = form.email.value;
     const feedback = form.feedback.value;
     const img = user.photoURL
 
 
-    const userFeedback = { name, email, selectedRating, feedback, img }
+    const userFeedback = { commpanyName, email, selectedRating, feedback, img }
     fetch('http://localhost:5000/feedback', {
       method: 'POST',
       headers: {
@@ -146,7 +146,7 @@ const Feedback = () => {
                       required
                       type="text"
                       id="name"
-                      name="name"
+                      name="commpanyName"
                       className="mt-1 p-2 w-full rounded border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200"
                       placeholder="Your Name"
                     />
