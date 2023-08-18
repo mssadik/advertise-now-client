@@ -6,7 +6,7 @@ const Advertisement = () => {
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    fetch("/advertisement.json")
+    fetch("https://online-advertisement.vercel.app/advertisements")
       .then((res) => res.json())
       .then((data) => setAdds(data));
   }, []);
@@ -28,7 +28,7 @@ const Advertisement = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 ">
         {filterData.map((add) => (
-          <AdvertiseCard key={add.id} add={add}></AdvertiseCard>
+          <AdvertiseCard key={add?._id} add={add}></AdvertiseCard>
         ))}
       </div>
       {!showAll && (

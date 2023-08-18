@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 import { AuthContext } from "../../Providers/AuthProviders";
 import { useContext } from "react";
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
-  const {user,logOut} = useContext(AuthContext);
+  const { user, logOut } = useContext(AuthContext);
   console.log(user);
   const handleSignOut = () => {
     logOut()
@@ -75,10 +75,7 @@ const Navbar = () => {
       <div className="navbar-end">
         {user ? (
           <>
-            <div
-              className="tooltip tooltip-bottom"
-              data-tip={user?.displayName}
-            >
+            <div className="tooltip tooltip-bottom" data-tip={user?.displayName}>
               <img
                 style={{ height: "50px", width: "50px" }}
                 className="rounded-full mx-2 md:mx-4"
