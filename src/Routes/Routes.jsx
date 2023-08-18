@@ -6,6 +6,7 @@ import Login from "../Login/Login";
 import SignUp from "../SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
 import AllCompany from "../pages/Home/AllCompany/AllCompany";
+import AddPost from "../pages/AddPost/AddPost";
 
 export const router = createBrowserRouter([
   {
@@ -30,9 +31,13 @@ export const router = createBrowserRouter([
         element: <SignUp></SignUp>,
       },
       {
-        path: "allCompany",
+        path: "/allCompany",
         element: <AllCompany></AllCompany>,
       },
+      {
+        path: "/postAdd",
+        element: <AddPost></AddPost>
+      }
     ],
   },
 ]);
