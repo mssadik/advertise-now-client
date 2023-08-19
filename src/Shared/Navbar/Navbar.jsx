@@ -39,7 +39,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="fixed px-8 md:px-12 z-10 bg-opacity-30 bg-black navbar text-white">
+    <div style={{height: '100px'}} className="fixed px-8 md:px-12 z-10 bg-opacity-30 bg-black navbar text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -82,14 +82,14 @@ const Navbar = () => {
               />
             </div>
             <Link onClick={handleSignOut}>
-              <a className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white">
+              <a className="btn btn-secondary text-white">
                 signOut
               </a>
             </Link>
           </>
         ) : (
           <Link
-            className="btn border-orange-500 bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white"
+            className="btn btn-secondary text-white"
             to="/login"
           >
             Login
