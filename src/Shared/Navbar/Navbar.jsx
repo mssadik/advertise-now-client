@@ -21,7 +21,7 @@ const Navbar = () => {
             <li><Link className="uppercase font-bold" to='/'>Services</Link></li>
         </>
   return (
-    <div className="fixed px-8 z-10 bg-opacity-30 bg-black navbar text-white">
+    <div className="fixed px-8 md:px-12 z-10 bg-opacity-30 bg-black navbar text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <img style={{height: '75px', width: '130px'}} src={logo} alt="" />
+        <img style={{height: '90px', width: '160px'}} src={logo} alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -59,11 +59,11 @@ const Navbar = () => {
           user ?
           <>
             <img style={{height: '50px', width: '50px'}} className="rounded-full mr-2 md:mr-4" src={user?.photoURL} alt="" />
-            <Link onClick={handleSignOut}><a className="btn bg-orange-700 border-none px-6 uppercase text-white">signOut</a></Link>
+            <Link onClick={handleSignOut}><a className="btn btn-secondary border-none px-6 uppercase text-white">signOut</a></Link>
           </> 
           :
           // <Link to="/login"><a className="btn bg-orange-700 border-none px-6 uppercase text-white">Login</a></Link>
-          <Link className="btn bg-orange-700 border-none px-6 uppercase text-white" to="/login">Login</Link>
+          <Link className="btn btn-secondary border-none px-6 uppercase text-white" to="/login">Login</Link>
         }
       </div>
     </div>
