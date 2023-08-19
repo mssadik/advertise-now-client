@@ -1,13 +1,16 @@
 import { Rating } from "@smastrom/react-rating";
 import { Link } from "react-router-dom";
-const AdvertiseCard = ({ add }) => {
-  const { _id, logo_url, name, description, rating } = add;
+
+const AllCompanyCard = (allCompany) => {
+  const { id, name, description, image, ratings } = allCompany.allCompany;
+
+  console.log(allCompany);
 
   return (
     <div>
       <div className="card bg-base-100 shadow-xl border border-b-0 border-t-orange-200 border-r-orange-100 border-l-orange-100">
         <figure>
-          <img src={logo_url} alt="Shoes" />
+          <img src={image} alt="Shoes" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold text-2xl">{name}</h2>
@@ -17,13 +20,13 @@ const AdvertiseCard = ({ add }) => {
               <Rating
                 className="text-yellow-400"
                 style={{ maxWidth: 100 }}
-                value={rating}
+                value={ratings}
                 readOnly
               />
             </h4>
 
             <Link
-              to={`/cardDetails/${_id}`}
+              to={`/cardDetails/${id}`}
               className="btn bg-orange-500 text-white hover:text-orange-500 hover:border hover:border-orange-500 hover:bg-white"
             >
               Company Profile
@@ -34,4 +37,5 @@ const AdvertiseCard = ({ add }) => {
     </div>
   );
 };
-export default AdvertiseCard;
+
+export default AllCompanyCard;
