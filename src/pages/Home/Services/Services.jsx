@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Slide from 'react-reveal/Slide';
 
 const Services = () => {
   return (
     <section className="bg-gradient-to-r from-[#424D98] to-[#0287C5]  md:gap-16 py-36 px-8 md:px-44">
-      <h3 className="uppercase text-3xl text-bold text-white text-center pb-4">
+      <h3 className="uppercase text-4xl text-bold text-white text-center pb-4">
         our best services
       </h3>
       <div className="text-gray-300 font-semibold text-center flex justify-center gap-8 pb-12 md:pb-16">
@@ -12,6 +13,7 @@ const Services = () => {
         <p>Hastle-free imports</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -21,6 +23,8 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Shop</p>
           </div>
         </Link>
+        </Slide >
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -30,6 +34,8 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Hosting</p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -41,6 +47,8 @@ const Services = () => {
             </p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -52,6 +60,8 @@ const Services = () => {
             </p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           {" "}
           <div>
@@ -64,6 +74,8 @@ const Services = () => {
             </p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -75,6 +87,8 @@ const Services = () => {
             </p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -86,6 +100,8 @@ const Services = () => {
             </p>
           </div>
         </Link>
+        </Slide>
+        <Slide bottom>
         <Link>
           <div>
             <img
@@ -95,6 +111,7 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Blog</p>
           </div>
         </Link>
+        </Slide>
       </div>
     </section>
   );
