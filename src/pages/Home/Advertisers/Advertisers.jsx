@@ -6,10 +6,10 @@ import Zoom from 'react-reveal/Zoom';
 
 const Advertisers = () => {
     return (
-        <div className="py-12 bg-[#3069E6]">
+        <div className="py-16 bg-gradient-to-r from-[#052646] to-[#353C74]">
             <div className="text-center p-5">
                 <Zoom left><h3 className="font-bold text-orange-500">FOR ADVERTISERS</h3></Zoom>
-                <Flip right><h1 className="font-extrabold text-4xl text-black pb-4">CHAMPIONING YOUR GOALS</h1></Flip>
+                <Flip right><h1 className="font-extrabold text-4xl text-white pb-4">CHAMPIONING YOUR GOALS</h1></Flip>
             </div>
             <div className="flex gap-y-16 flex-col  md:flex-row items-center justify-center md:space-x-8 p-8">
                 {/* Card 1 */}

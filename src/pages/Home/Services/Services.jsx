@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section className="bg-gradient-to-r from-[#424D98] to-[#0287C5]  md:gap-16 py-36 px-8 md:px-44">
+    <section className="bg-gradient-to-r from-[#11022B] to-[#052646]  md:gap-16 py-36 px-8 md:px-44">
       <h3 className="uppercase text-4xl text-bold text-white text-center pb-4">
         our best services
       </h3>
