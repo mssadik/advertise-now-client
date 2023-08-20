@@ -17,7 +17,7 @@ const Feedback = () => {
   const [selectedRating, setSelectedRating] = useState(5);
   const {user} = useContext(AuthContext)
   useEffect(() => {
-    fetch("http://localhost:5000/feedbacks")
+    fetch("https://online-advertisement.vercel.app/feedbacks")
     // fetch("feedback.json")
       .then((res) => res.json())
       .then((data) => setFeedbacks(data));
@@ -83,7 +83,7 @@ const Feedback = () => {
 
 
     const userFeedback = { commpanyName, email, selectedRating, feedback, img }
-    fetch('http://localhost:5000/feedback', {
+    fetch('https://online-advertisement.vercel.app/feedback', {
       method: 'POST',
       headers: {
         "content-type": "application/json",
