@@ -2,7 +2,7 @@ import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaTwitter, FaYoutube } fro
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-r from-[#414988] to-[#2B305C] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-8 px-8 md:px-16 py-12 md:py-28">
+    <section className="bg-[#041D34] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-8 px-8 md:px-16 py-12 md:py-28">
       <div className="space-y-6 md:space-y-10 text-white">
         <p className="text-lg uppercase font-semibold">OUR CONTACT</p>
         <h3 className="text-5xl font-bold">Get In Touch</h3>
