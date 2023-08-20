@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Slide from 'react-reveal/Slide';
+
 
 const Services = () => {
   return (
@@ -13,7 +13,7 @@ const Services = () => {
         <p>Hastle-free imports</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <Slide bottom>
+       
         <Link>
           <div>
             <img
@@ -23,8 +23,7 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Shop</p>
           </div>
         </Link>
-        </Slide >
-        <Slide bottom>
+        
         <Link>
           <div>
             <img
@@ -34,8 +33,8 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Hosting</p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+       
+        
         <Link>
           <div>
             <img
@@ -47,8 +46,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+     
         <Link>
           <div>
             <img
@@ -60,8 +58,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+       
         <Link>
           {" "}
           <div>
@@ -74,8 +71,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+       
         <Link>
           <div>
             <img
@@ -87,8 +83,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+        
         <Link>
           <div>
             <img
@@ -100,8 +95,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        </Slide>
-        <Slide bottom>
+        
         <Link>
           <div>
             <img
@@ -111,7 +105,7 @@ const Services = () => {
             <p className="text-center text-white pt-2 md:pt-3 pb-4">Blog</p>
           </div>
         </Link>
-        </Slide>
+  
       </div>
     </section>
   );
