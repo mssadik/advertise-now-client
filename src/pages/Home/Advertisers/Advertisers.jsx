@@ -1,11 +1,13 @@
+import Flip from 'react-reveal/Flip';
 import "./Advertisers.css";
+import Zoom from 'react-reveal/Zoom';
 
 const Advertisers = () => {
     return (
-        <div className="py-12 ">
+        <div className="py-12 bg-[#3069E6]">
             <div className="text-center p-5">
-                <h3 className="font-bold text-orange-500">FOR ADVERTISERS</h3>
-                <h1 className="font-extrabold text-4xl text-black pb-4">CHAMPIONING YOUR GOALS</h1>
+                <Zoom left><h3 className="font-bold text-orange-500">FOR ADVERTISERS</h3></Zoom>
+                <Flip right><h1 className="font-extrabold text-4xl text-black pb-4">CHAMPIONING YOUR GOALS</h1></Flip>
             </div>
             <div className="flex gap-y-16 flex-col  md:flex-row items-center justify-center md:space-x-8 p-8">
                 {/* Card 1 */}
