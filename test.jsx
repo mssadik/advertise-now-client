@@ -6,18 +6,7 @@ const test = () => {
             <h2>Bangladesh</h2>
             <h2>Bangladesh</h2>
             <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
-            <h2>Bangladesh</h2>
+            
         </div>
     );
 };
