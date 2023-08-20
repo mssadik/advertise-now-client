@@ -61,10 +61,10 @@ const SignUp = () => {
       
       
   return (
-    <div className="hero min-h-screen bg-base-200 rounded-lg py-24">
+    <div className="hero min-h-screen bg-base-200 rounded-lg pt-40 pb-24">
       <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center gap-12 md:gap-20">
         <div className="text-center lg:text-left">
-          <img style={{height: "500px"}} className='rounded-lg' src='https://i.postimg.cc/jCYwg2tj/6300959.jpg' alt="" />
+          <img style={{height: "630px", width: '500px'}} className='rounded-lg shadow-xl' src='https://i.postimg.cc/jCYwg2tj/6300959.jpg' alt="" />
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form className="card-body" onSubmit={handleSubmit(onSubmit)}>

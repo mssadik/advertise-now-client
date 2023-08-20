@@ -73,10 +73,10 @@ const Login = () => {
     }
 
   return (
-    <div className="hero bg-base-200 py-24">
+    <div className="hero bg-base-200 pt-40 pb-24">
       <div className="hero-content justify-center items-center gap-12 md:gap-20 flex-col-reverse md:flex-row">
         <div className="">
-          <img style={{height: "500px"}} className='rounded-lg' src="https://i.postimg.cc/6pyyNFpK/6300830.jpg" alt="" />
+          <img style={{height: "580px", width: '500px'}} className='rounded-lg shadow-lg' src="https://i.postimg.cc/6pyyNFpK/6300830.jpg" alt="" />
         </div>
         <div  className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={handleLogin} className="card-body">

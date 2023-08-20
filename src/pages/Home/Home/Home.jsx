@@ -6,6 +6,7 @@ import Feedback from "../Feedback/Feedback";
 import Advertisement from "../Advertisement/Advertisement";
 import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
+import FaqQuestion from "../FaqQuestion/FaqQuestion";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Team></Team>
             <NewsLetter></NewsLetter>
             <Contact></Contact>
+            <FaqQuestion></FaqQuestion>
             <Feedback></Feedback>
         </div>
     );
